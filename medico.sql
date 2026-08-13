@@ -71,3 +71,7 @@ insert into consulta values(4, 4, '2024-10-22', '14:00');
 truncate table consulta;
 
 select * from medico;
+
+update medico set especialidade = 'Dermatologia' where codMed = 5;
+
+select * from paciente;
