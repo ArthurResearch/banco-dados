@@ -1,0 +1,11 @@
+select personagem.Personagem
+from ator inner join personagem on ator.CodAtor = personagem.CodAtor
+where ator.nome_Real = 'Maria da Silva';
+
+select filme.NomeFilme, personagem.Personagem
+from ator inner join personagem on personagem.CodAtor = ator.CodAtor inner join filme on personagem.codFilme = filme.codFilme
+where ator.CodAtor = 'A17';
+
+select paciente.nomePac, consulta.dia
+from paciente inner join consulta on paciente.codPac = consulta.codPac
+where consulta.dia like '2025-04-%';
