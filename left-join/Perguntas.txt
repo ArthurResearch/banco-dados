@@ -1,0 +1,5 @@
+1. ele reúne as informações de duas tabelas priorizando as informações da tabela da esquerda, ou seja, todas as informações da primeira tabela iram aparecer junto com as informações da tabela da direita,
+  porém se não tiver informações na tabela da direita, ele vai mostrar NULL
+2. Vantagens: Mostra todos os registros da tabela principal; Permite encontrar registros sem correspondência; Facilita a combinação de informações de diferentes tabelas.
+  Desvantagens: Pode retornar valores NULL, que pode afetar tabelas não preparadas; Pode deixar consultas mais difíceis de se enteder; Em tabelas grandes, pode afetar o desempenho.
+8. O LEFT JOIN prioriza as informações da esquerda, enquanto o INNER JOIN mostra as informações que correspondem nas duas tabelas.
