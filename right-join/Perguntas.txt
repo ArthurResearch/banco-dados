@@ -1,4 +1,4 @@
 4.
-  a)
-  b)
-  c)
+  a) Retorna todos os pilotos cadastrados, mostrando o fabricante do motor e a equipe. Se não houver correspondência, o resultado será NULL
+  b) Mostra pilotos que possuem resultados registrados no GP de Interlagos
+  c) Retorna equipes que não possuem nenhum piloto cadastrado
